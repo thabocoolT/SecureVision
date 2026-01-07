@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.pyc
+.env
+
+# Virtual environment
+venv/
+.venv/
+
+# Models and data
+data/owner_embeddings/*
+!data/owner_embeddings/.gitkeep
+
+# OS
+.DS_Store
+Thumbs.db
